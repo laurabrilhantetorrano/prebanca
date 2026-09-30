@@ -1,0 +1,36 @@
+{
+  "name": "tcc-backend",
+  "version": "1.0.0",
+  "description": "API REST do sistema de gerenciamento de roupas e autenticação - TCC Nana e Mimi",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test src/tests/**/*.test.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "bcrypt",
+    "api-rest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.1.2",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  }
+}
